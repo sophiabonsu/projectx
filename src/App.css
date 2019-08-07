@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+.navbarcon {
+  background-color: #FFCAD4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .App-logo {
@@ -9,25 +12,40 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2262e2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  font-family: 'Righteous', cursive;
+  font-size: calc(70px + 2vmin);
+  color:#ECA400;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+#nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+
+
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
 import './App.css';
+import neighbor from './Neighbors.png';
+import Navbar from './components/nav';
+import Routes from './Routes'; 
 
-function App() {
-  return (
-    <div className="App">
+
+
+
+ function App() {
+  return (<div>
+    <div  className="navbarcon">
+
+      
+        
+    <img className="logo" src={neighbor} alt="Logo" />
+    
+      <Navbar/>
+      <Routes/>
+      </div>
+
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Neighborhood Listings
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div>
+        <h1>Rent</h1>
+        
+      </div>
+      <div>
+        <h1>Buy</h1>
+      </div>
+      <div>
+        <h1>Sell</h1>
+      </div>
+      <div>Contact Us</div>
       </header>
-    </div>
+  </div>
   );
 }
+
 
 export default App;
