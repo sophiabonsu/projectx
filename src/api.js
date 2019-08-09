@@ -1,0 +1,4 @@
+// housesize:
+// squarefoot:
+// bathroom:
+// location:
